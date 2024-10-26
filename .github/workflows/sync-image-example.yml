@@ -27,5 +27,5 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/dzzoffice/centos_bt_imagick_ffmpeg:latest docker://registry.cn-hangzhou.aliyuncs.com/nookvoice/centos_bt_imagick_ffmpeg:latest
+         skopeo copy docker://docker.io/apache/seatunnel:2.3.8 docker://registry.cn-hangzhou.aliyuncs.com/nookvoice/seatunnel:2.3.8
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称 
