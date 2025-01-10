@@ -17,5 +17,10 @@ Actions 界面查看部署状态
 ##  下载 
 同步成功后可在私有仓库查看和下载镜像
 ```shell
-docker pull registry.cn-hangzhou.aliyuncs.com/nookvoice/centos_bt_imagick_ffmpeg:latest
+docker pull registry.cn-hangzhou.aliyuncs.com/nookvoice/seatunnel:2.3.8
+```
+
+重新命名镜像：
+```shell
+docker tag registry.cn-hangzhou.aliyuncs.com/nookvoice/seatunnel:2.3.8 apache/seatunnel:2.3.8
 ```
